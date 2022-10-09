@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>JS Calculator</title>
+    
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="subcontainer">
+                <form name="calculator">
+                
+                <div class="display">
+                    
+                <input type="textfield" name="display" value=" " id="disbar">
+                </div>
+                <br>
+                 <div class="keys">
+                    <input type="reset" value="AC" id="AC">
+                     
+                    <input type="button" value="(" id="numb" onClick="document.calculator.display.value+='('">
+                     
+                    <input type="button" value=")" id="numb" onClick="document.calculator.display.value+=')'">
+                                                                      
+                    <input type="button" value="/" id="numdi" onclick="document.calculator.display.value+='/'">
+                     
+                    <input type="button" value="7" id="num7" onclick="document.calculator.display.value+='7'">
+                     
+                    <input type="button" value="8" id="num8" onclick="document.calculator.display.value+='8'">
+                     
+                    <input type="button" value="9" id="num9" onclick="document.calculator.display.value+='9'">
+                     
+                    <input type="button" value="*" id="numm" onclick="document.calculator.display.value+='*'">
+                     
+                    <input type="button" value="4" id="num4" onclick="document.calculator.display.value+='4'">
+                     
+                    <input type="button" value="5" id="num5" onclick="document.calculator.display.value+='5'">
+                     
+                    <input type="button" value="6" id="num6" onclick="document.calculator.display.value+='6'">
+                     
+                    <input type="button" value="-" id="nummi" onclick="document.calculator.display.value+='-'">
+                     
+                    <input type="button" value="1" id="num1" onclick="document.calculator.display.value+='1'">
+                     
+                    <input type="button" value="2" id="num2" onclick="document.calculator.display.value+='2'">
+                     
+                    <input type="button" value="3" id="num3" onclick="document.calculator.display.value+='3'">
+                     
+                    <input type="button" value="+" id="nump" onclick="document.calculator.display.value+='+'">
+                          </div>   
+                    
+                    
+               
+                <div class="zero">
+                    <input type="button" value="0" id="numz" onclick="document.calculator.display.value+='0'">
+                    <input type="button" value="." id="numd" onclick="document.calculator.display.value+='.'">
+                    <input type="button" value="=" id="nume" onclick="document.calculator.display.value=eval(document.calculator.display.value)">
+                    
+               </div>
+                </form>
+                    
+               
+            
+            </div>
+        
+        </div>
+    
+    </body>
+
+
+</html>
